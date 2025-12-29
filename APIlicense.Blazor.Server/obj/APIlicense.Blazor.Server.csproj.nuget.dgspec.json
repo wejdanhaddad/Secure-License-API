@@ -1,0 +1,371 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DELL 7389\\source\\repos\\APIlicense.Blazor.Server\\APIlicense.Blazor.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DELL 7389\\source\\repos\\APIlicense.Blazor.Server\\APIlicense.Blazor.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL 7389\\source\\repos\\APIlicense.Blazor.Server\\APIlicense.Blazor.Server.csproj",
+        "projectName": "APIlicense.Blazor.Server",
+        "projectPath": "C:\\Users\\DELL 7389\\source\\repos\\APIlicense.Blazor.Server\\APIlicense.Blazor.Server.csproj",
+        "packagesPath": "C:\\Users\\DELL 7389\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL 7389\\source\\repos\\APIlicense.Blazor.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL 7389\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/RBQePUaqSwZNXbA9lnBnXhUl47EzboRsJBTHXxs6qzos2HIRTc/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\DELL 7389\\source\\repos\\APIlicense.Module\\APIlicense.Module.csproj": {
+                "projectPath": "C:\\Users\\DELL 7389\\source\\repos\\APIlicense.Module\\APIlicense.Module.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DevExpress.Drawing.Skia": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.Api.Xpo.All": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.Blazor": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.CodeAnalysis": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.MultiTenancy.Blazor.Xpo": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.MultiTenancy.WebApi.Xpo": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.Security.Xpo": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.Validation": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.Validation.Blazor": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.Xpo": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )",
+              "versionCentrallyManaged": true
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.9.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[8.1.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Azure.Identity": "1.13.1",
+            "DevExpress.Drawing.Skia": "24.2.5",
+            "DevExpress.ExpressApp": "24.2.5",
+            "DevExpress.ExpressApp.Api.Xpo.All": "24.2.5",
+            "DevExpress.ExpressApp.Blazor": "24.2.5",
+            "DevExpress.ExpressApp.CodeAnalysis": "24.2.5",
+            "DevExpress.ExpressApp.ConditionalAppearance": "24.2.5",
+            "DevExpress.ExpressApp.MultiTenancy.Blazor.Xpo": "24.2.5",
+            "DevExpress.ExpressApp.MultiTenancy.WebApi.Xpo": "24.2.5",
+            "DevExpress.ExpressApp.Objects": "24.2.5",
+            "DevExpress.ExpressApp.Security": "24.2.5",
+            "DevExpress.ExpressApp.Security.Xpo": "24.2.5",
+            "DevExpress.ExpressApp.Validation": "24.2.5",
+            "DevExpress.ExpressApp.Validation.Blazor": "24.2.5",
+            "DevExpress.ExpressApp.Xpo": "24.2.5",
+            "DevExpress.Persistent.Base": "24.2.5",
+            "DevExpress.Persistent.BaseImpl.Xpo": "24.2.5",
+            "DevExpress.Xpo": "24.2.5",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.10",
+            "MySqlConnector": "2.4.0",
+            "Swashbuckle.AspNetCore": "6.9.0",
+            "Swashbuckle.AspNetCore.Annotations": "8.1.1",
+            "System.IdentityModel.Tokens.Jwt": "7.5.1"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL 7389\\source\\repos\\APIlicense.Module\\APIlicense.Module.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL 7389\\source\\repos\\APIlicense.Module\\APIlicense.Module.csproj",
+        "projectName": "APIlicense.Module",
+        "projectPath": "C:\\Users\\DELL 7389\\source\\repos\\APIlicense.Module\\APIlicense.Module.csproj",
+        "packagesPath": "C:\\Users\\DELL 7389\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL 7389\\source\\repos\\APIlicense.Module\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL 7389\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/RBQePUaqSwZNXbA9lnBnXhUl47EzboRsJBTHXxs6qzos2HIRTc/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.13.1, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.CodeAnalysis": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.ConditionalAppearance": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.MultiTenancy.Xpo": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.Objects": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.Security": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.Security.Xpo": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.Validation": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.ExpressApp.Xpo": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.Persistent.Base": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "DevExpress.Persistent.BaseImpl.Xpo": {
+              "target": "Package",
+              "version": "[24.2.5, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )",
+              "versionCentrallyManaged": true
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.9.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[8.1.1, )",
+              "versionCentrallyManaged": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Azure.Identity": "1.13.1",
+            "DevExpress.Drawing.Skia": "24.2.5",
+            "DevExpress.ExpressApp": "24.2.5",
+            "DevExpress.ExpressApp.Api.Xpo.All": "24.2.5",
+            "DevExpress.ExpressApp.Blazor": "24.2.5",
+            "DevExpress.ExpressApp.CodeAnalysis": "24.2.5",
+            "DevExpress.ExpressApp.ConditionalAppearance": "24.2.5",
+            "DevExpress.ExpressApp.MultiTenancy.Xpo": "24.2.5",
+            "DevExpress.ExpressApp.Objects": "24.2.5",
+            "DevExpress.ExpressApp.Security": "24.2.5",
+            "DevExpress.ExpressApp.Security.Xpo": "24.2.5",
+            "DevExpress.ExpressApp.Validation": "24.2.5",
+            "DevExpress.ExpressApp.Validation.Blazor": "24.2.5",
+            "DevExpress.ExpressApp.Xpo": "24.2.5",
+            "DevExpress.Persistent.Base": "24.2.5",
+            "DevExpress.Persistent.BaseImpl.Xpo": "24.2.5",
+            "DevExpress.Xpo": "24.2.5",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.10",
+            "MySqlConnector": "2.4.0",
+            "Swashbuckle.AspNetCore": "6.9.0",
+            "Swashbuckle.AspNetCore.Annotations": "8.1.1",
+            "System.IdentityModel.Tokens.Jwt": "7.5.1"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1478 @@
+[
+  {
+    "ContainingType": "APIlicense.WebApi.JWT.AuthenticationController",
+    "Method": "Authenticate",
+    "RelativePath": "api/Authentication/Authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logonParameters",
+        "Type": "DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LicenceAPIv2.Controllers.LicenseController",
+    "Method": "Activate",
+    "RelativePath": "api/licenses/activate/{key}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LicenceAPIv2.Controllers.LicenseController",
+    "Method": "Check",
+    "RelativePath": "api/licenses/check/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LicenceAPIv2.Controllers.LicenseController",
+    "Method": "Deactivate",
+    "RelativePath": "api/licenses/deactivate/{key}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LicenceAPIv2.Controllers.LicenseController",
+    "Method": "Generate",
+    "RelativePath": "api/licenses/generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "LicenceAPIv2.Models.LicenseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.LocalizationController",
+    "Method": "ActionCaption",
+    "RelativePath": "api/Localization/ActionCaption",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "actionName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.LocalizationController",
+    "Method": "ClassCaption",
+    "RelativePath": "api/Localization/ClassCaption",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classFullName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.LocalizationController",
+    "Method": "LocalizedText",
+    "RelativePath": "api/Localization/LocalizedText",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "itemName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.LocalizationController",
+    "Method": "MemberCaption",
+    "RelativePath": "api/Localization/MemberCaption",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classFullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "memberName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.MediaFilesControllerBase",
+    "Method": "DownloadStream",
+    "RelativePath": "api/MediaFile/DownloadStream",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objectType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "objectKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "propertyName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.MultiTenancy.AspNetCore.Controllers.MultiTenancyController",
+    "Method": "GetTenantId",
+    "RelativePath": "api/MultiTenancy/GetTenantId",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tenantName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microsoft.AspNetCore.OData.Routing.Controllers.MetadataController",
+    "Method": "GetServiceDocument",
+    "RelativePath": "api/odata",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.OData.ODataServiceDocument",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/"
+  },
+  {
+    "ContainingType": "Microsoft.AspNetCore.OData.Routing.Controllers.MetadataController",
+    "Method": "GetMetadata",
+    "RelativePath": "api/odata/$metadata",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.OData.Edm.IEdmModel",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/$metadata"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/LicenseTest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Linq.IQueryable\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/LicenseTest"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Post",
+    "RelativePath": "api/odata/LicenseTest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/LicenseTest({key})",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LicenseTest",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/LicenseTest({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Patch",
+    "RelativePath": "api/odata/LicenseTest({key})",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "patch",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Put",
+    "RelativePath": "api/odata/LicenseTest({key})",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "delta",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Delete",
+    "RelativePath": "api/odata/LicenseTest({key})",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/LicenseTest({key})/{navigationProperty}({relatedKey})/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest({key})/{navigationProperty}({relatedKey})/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/LicenseTest({key})/{navigationProperty}/{relatedKey}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest({key})/{navigationProperty}/{relatedKey}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "GetRef",
+    "RelativePath": "api/odata/LicenseTest({key})/{navigationProperty}/$ref",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/LicenseTest({key})/{navigationProperty}/$ref",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/LicenseTest({key})/{navigationProperty}/$ref",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/LicenseTest({key})/{navigationProperty}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/LicenseTest/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LicenseTest",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/LicenseTest/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Patch",
+    "RelativePath": "api/odata/LicenseTest/{key}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "patch",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Put",
+    "RelativePath": "api/odata/LicenseTest/{key}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "delta",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Delete",
+    "RelativePath": "api/odata/LicenseTest/{key}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/LicenseTest/{key}/{navigationProperty}({relatedKey})/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest/{key}/{navigationProperty}({relatedKey})/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/LicenseTest/{key}/{navigationProperty}/{relatedKey}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest/{key}/{navigationProperty}/{relatedKey}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "GetRef",
+    "RelativePath": "api/odata/LicenseTest/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/LicenseTest/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/LicenseTest/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/LicenseTest/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/LicenseTest/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/LicenseTest/$count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Linq.IQueryable\u00601[[LicenseTest, APIlicense.Module, Version=1.0.9269.35806, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/LicenseTest/$count"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/xaf_license",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Linq.IQueryable\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/xaf_license"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Post",
+    "RelativePath": "api/odata/xaf_license",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/xaf_license({key})",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIlicense.Blazor.Server.Models.xaf_license",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/xaf_license({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Patch",
+    "RelativePath": "api/odata/xaf_license({key})",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "patch",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Put",
+    "RelativePath": "api/odata/xaf_license({key})",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "delta",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Delete",
+    "RelativePath": "api/odata/xaf_license({key})",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license({key})"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/xaf_license({key})/{navigationProperty}({relatedKey})/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license({key})/{navigationProperty}({relatedKey})/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/xaf_license({key})/{navigationProperty}/{relatedKey}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license({key})/{navigationProperty}/{relatedKey}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "GetRef",
+    "RelativePath": "api/odata/xaf_license({key})/{navigationProperty}/$ref",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/xaf_license({key})/{navigationProperty}/$ref",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/xaf_license({key})/{navigationProperty}/$ref",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/xaf_license({key})/{navigationProperty}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license({key})/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/xaf_license/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIlicense.Blazor.Server.Models.xaf_license",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/xaf_license/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Patch",
+    "RelativePath": "api/odata/xaf_license/{key}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "patch",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Put",
+    "RelativePath": "api/odata/xaf_license/{key}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "delta",
+        "Type": "DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Delete",
+    "RelativePath": "api/odata/xaf_license/{key}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license/{key}"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/xaf_license/{key}/{navigationProperty}({relatedKey})/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license/{key}/{navigationProperty}({relatedKey})/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/xaf_license/{key}/{navigationProperty}/{relatedKey}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatedKey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license/{key}/{navigationProperty}/{relatedKey}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "GetRef",
+    "RelativePath": "api/odata/xaf_license/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/xaf_license/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "CreateRef",
+    "RelativePath": "api/odata/xaf_license/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "link",
+        "Type": "System.Uri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "DeleteRef",
+    "RelativePath": "api/odata/xaf_license/{key}/{navigationProperty}/$ref",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "navigationProperty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "api/odata/xaf_license/{key}/{navigationProperty}/$ref"
+  },
+  {
+    "ContainingType": "DevExpress.ExpressApp.WebApi.Mvc.DataControllerBase\u00602[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null],[DevExpress.ExpressApp.WebApi.Services.XafDelta\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]], DevExpress.ExpressApp.WebApi.Xpo.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]",
+    "Method": "Get",
+    "RelativePath": "api/odata/xaf_license/$count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Linq.IQueryable\u00601[[APIlicense.Blazor.Server.Models.xaf_license, APIlicense.Blazor.Server, Version=1.0.9269.35816, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json;odata.metadata=minimal;odata.streaming=true",
+          "application/json;odata.metadata=minimal;odata.streaming=false",
+          "application/json;odata.metadata=minimal",
+          "application/json;odata.metadata=full;odata.streaming=true",
+          "application/json;odata.metadata=full;odata.streaming=false",
+          "application/json;odata.metadata=full",
+          "application/json;odata.metadata=none;odata.streaming=true",
+          "application/json;odata.metadata=none;odata.streaming=false",
+          "application/json;odata.metadata=none",
+          "application/json;odata.streaming=true",
+          "application/json;odata.streaming=false",
+          "application/json",
+          "application/xml",
+          "application/json",
+          "text/plain",
+          "application/octet-stream",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "api/odata/xaf_license/$count"
+  }
+]
